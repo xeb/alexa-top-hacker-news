@@ -1,0 +1,30 @@
+{
+  "name": "top-hacker-news",
+  "version": "1.0.0",
+  "description": "An Alexa Skill to get the Top Hacker News",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xeb/alexa-top-hacker-news.git"
+  },
+  "keywords": [
+    "alexa",
+    "top",
+    "hacker",
+    "news"
+  ],
+  "author": "Mark Kockerbeck",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/xeb/alexa-top-hacker-news/issues"
+  },
+  "homepage": "https://github.com/xeb/alexa-top-hacker-news#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "request": "^2.74.0",
+    "util": "^0.10.3"
+  }
+}
